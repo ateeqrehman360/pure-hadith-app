@@ -30,6 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    flutter:
+  uses-material-design: true
+  assets:
+    - assets/hadith_data/
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
