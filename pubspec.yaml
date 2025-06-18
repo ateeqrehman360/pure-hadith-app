@@ -1,4 +1,5 @@
 name: pure_hadith
+<<<<<<< HEAD
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -34,10 +35,30 @@ dependencies:
   uses-material-design: true
   assets:
     - assets/hadith_data/
+=======
+description: MVP for Pure Hadith.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/hadith_data/
+
+>>>>>>> 65d919f (Pushed full working Flutter MVP)
   fonts:
     - family: Amiri
       fonts:
         - asset: assets/fonts/Amiri-Regular.ttf
+<<<<<<< HEAD
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -95,3 +116,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+=======
+>>>>>>> 65d919f (Pushed full working Flutter MVP)
